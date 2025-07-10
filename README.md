@@ -1,9 +1,7 @@
 # React Todo App
 
-This is a simple Todo application built using React and Tailwind CSS. It allows users to add new todos and mark them as complete. The project makes use of React hooks like `useState` and `useContext` to manage and update application state efficiently. Users can type a task into an input field and add it to a list. Each todo can be marked as completed, which toggles its completion status visually and in the internal state.
+This is a simple and functional Todo application built using React and styled with Tailwind CSS. It allows users to add new tasks, mark them as completed, delete them, and even edit existing tasks. The app also uses the browser's local storage to persist data, ensuring that your todos remain saved even after refreshing the page or closing the browser.
 
-The app structure is modular, with components such as `TodoForm`, `TodoItem`, and `TodoContext`, making it easy to scale and maintain. The UI is styled using Tailwind CSS for a clean and responsive look.
+State is managed using React's `useState` and `useEffect` hooks, and the overall logic is organized using React Context to keep the code clean and maintainable. Features like editing and saving todos make this a great foundational project for learning React’s component structure, state management, and local storage integration.
 
-This project was created by following the **Chai aur React** tutorial series on the YouTube channel **Chai Aur Code**, which provides a beginner-friendly walkthrough of core React concepts and project-building techniques.
-
-To run the app locally, clone the repository, install dependencies using `npm install`, and start the development server with `npm run dev`.
+This project was created by following the **Chai aur React** tutorial series by the **Chai Aur Code** YouTube channel, which provides an excellent step-by-step guide for beginners building React projects.
